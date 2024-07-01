@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 70%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-image {
+    flex: 1;
+    background-image: url('https://via.placeholder.com/600x800');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    border-radius: 20px;
+}
+
+.card-custom {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
